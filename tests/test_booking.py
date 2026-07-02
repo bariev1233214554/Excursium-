@@ -21,6 +21,8 @@ def test_booking_flow():
     TEST_URL = os.getenv("TEST_URL")
     TEST_DATA = os.getenv("TEST_DATA")
     TEST_PHONE= os.getenv("TEST_PHONE")
+    TEST_NAME = os.getenv("TEST_NAME")
+    TEST_RE = os.getenv("TEST_RE")
 
     service = Service(GeckoDriverManager().install())
     driver = webdriver.Firefox(service=service)
@@ -50,13 +52,13 @@ def test_booking_flow():
         )
         book_button.click()
 # Выбор размера группы
-        time.sleep(5)
+        time.sleep(2)
         people_button = wait.until(
             EC.element_to_be_clickable(
                 (By.CSS_SELECTOR, "div#bookingModal > div > div > div:nth-of-type(2) > div > div > label"))
         )
         people_button.click()
-        time.sleep(5)
+        time.sleep(2)
 
         peopleS_button = wait.until(
             EC.element_to_be_clickable(
@@ -64,7 +66,7 @@ def test_booking_flow():
                  "div#bookingModal > div > div > div:nth-of-type(2) > div > div > label:nth-of-type(2)"))
         )
         peopleS_button.click()
-        time.sleep(5)
+        time.sleep(2)
 
         peoplel_button = wait.until(
             EC.element_to_be_clickable(
@@ -72,7 +74,7 @@ def test_booking_flow():
                  "div#bookingModal > div > div > div:nth-of-type(2) > div > div > label:nth-of-type(3)"))
         )
         peoplel_button.click()
-        time.sleep(5)
+        time.sleep(2)
 # Выбор даты
         target_date_str = TEST_DATA
         date_field = driver.find_element(By.CSS_SELECTOR, "input#bookingDates")
@@ -86,7 +88,7 @@ def test_booking_flow():
         """, date_field, target_date_str)
 # Ввод Имени
         name_field = driver.find_element(By.CSS_SELECTOR, "input#bookingUserName")
-        name_field.send_keys("Наташа")
+        name_field.send_keys(TEST_NAME)
 # Ввод телефона
         pfone_field = driver.find_element(By.CSS_SELECTOR, "input#orderPhone")
         pfone_field.send_keys(TEST_PHONE)
@@ -96,8 +98,8 @@ def test_booking_flow():
 
         ree_field = driver.find_element(By.CSS_SELECTOR,
                                        "div#bookingModal > div > div > div:nth-of-type(2) > div:nth-of-type(5) > textarea")
-        ree_field.send_keys('ТЕСТ')
-        time.sleep(5)
+        ree_field.send_keys(TEST_RE)
+        time.sleep(2)
 # Выбор средств связи
 
 
@@ -111,12 +113,13 @@ def test_booking_flow():
         svazPh_field.click()
         Ok_field = driver.find_element(By.CSS_SELECTOR,
                                           "input#agreeCheck")
+        time.sleep(2)
 # Галочка
         Ok_field.click()
         send_field = driver.find_element(By.CSS_SELECTOR,
                                        "div#bookingModal > div > div > div:nth-of-type(3) > button")
         send_field.click()
-        time.sleep(5)
+        time.sleep(2)
         locator = (By.CSS_SELECTOR,
                    "div#bookingSuccess > div > div > div")
         try:
