@@ -1,0 +1,30 @@
+TEST_EMAIL=7890@gmail.com
+TEST_PASSWORD=123qaz
+TEST_URL="https://excursium.com/ekskursiya-dlya-shkolnikov/pekarnya-hlebnye-traditsii"
+TEST_DATA="21.08.26"
+# Телефон вводить без +7
+TEST_PHONE="9138989442"
+TEST_NAME="Наташа"
+TEST_RE="ТЕСТ"
+
+#Набор негативных сценариев
+#TEST_EMAIL=oc503k7s8q5l561gd9494xzqsez8qjknq617r25oh1a8aklacwohnqfwlwa2yweunc9yuj66xkivis2pz02305ahpl67gr40gh02h4iw5ubijfje437ai15wl4c2cjw1yxye6ume428cq7j4al1rg2xkved8cczd69seewfya7z148jul65nmltd24alkhphpmys8wwqmgvavsa68jnsosk2unpw94nsalallxqjw9bj156uj97y911@gmail.com
+#TEST_EMAIL=@gmail.com
+#TEST_EMAIL=vasa.com
+#TEST_EMAIL=7890@gmail
+#TEST_EMAIL=коля@маил.рф
+#TEST_EMAIL="№;"12@gmail.com
+
+#TEST_PASSWORD=3HrJbHpn1erlcx84ITMCRvVRnyLjgPTxr1xulo70ltCVnbUfp2gSiCrifOYAOY2qUdyClh5pzR3BsNX1kaAiJvRWIevEQFoH5K61KNo9bbSzxPK9qgHDNiFyZsLjA3Yl67NzG555WlUcjxdi8hFv0zy09m6G0LM0ARdNRzpUe3q5TH4PIbPvjL9ZZtjFRkzhbL9gSwIfXYKTpdXEB8S9OMclkqMkk87MhbHi2R3yTiYTLOfkM6N2SMvvzWLpYUZPk
+#TEST_PASSWORD=кволыфд
+#TEST_PASSWORD=1!"№5167"№;,@
+
+#TEST_PHONE=9138989442122
+#TEST_PHONE=91359!1433
+#TEST_PHONE=91259w1433
+
+#TEST_NAME=klxrmixupepmwsvpkqmzcyqeipdxyabzxvslldhrktutrxhxdjnfsrkiwsdxtimnhyzekjhnvtppczgyatfhbkneryyhrzycpnsctisvdqshdlpcbyaltyjjmnorigeaeweygvujxmoynoebyrthmwrktaycegmlrkksomkgeqihlbeyqcfxefxicwwoowmkfqeaovnfifjbjpmosmmsfgdgqqkfoxslythsgekqneoliuprntnuawzffmestupa
+#TEST_NAME=Rhdjd1553@45!!@
+
+#TEST_RE=p;DH$4d^CV0nH7dueq8wqRn*s$Pu:F_G0$O%F5W;tK^BI+u,Ra3F}oEF2Zz})DnbXH@K5)&*sG}^5;qGyc.lx&1+nIgE2-AFlKPll?t9Gg_cp=gh!tWNmiVNL%7PY+?.i)75|;3nE+CmiNp4baW&$2ZbPkQ8x^Prh?N2ii[(6LR7N_E.ID.)g?wrqtNCwXwk2VY_)!lg!p,+Zd@-QSsz%hx.D:,.D!k;iK)%I[:X--(hnjgx11i3g$t8p4KMFY{S.2lg-bili-}6BxCSq][?:FCX]P+z3qWFyFBsW3h.bL!K;Q0NsbENA7xI+hAk3zBc,zGr*.l=#HCH:Yn$JASbdFH^av_f^(gx?+Kp.iA*I.e{Pyn&[q#V)L-Eq@b6$1(c9MArlmd=jK!o8=qI(@ycP@J-)yn*gd@g@61K2m&O3lb3:!ju:[WNbIXWYCo1l}v73++o-+&Brt;JIuPKb9w0e9jz:X^Y_Eni=O^]bd;sGmQ73k67*G-?=O-us-*x_[N|OUK&F:bY)iep0wxS,8:+.a!z!DN0E}9ec(ZS{^(^hix_.MP(vi4$;_]vv!DB^HJBn9{Ecz?#}#&6=!A0@lYx3yC:VMZq%Py5&*pU@[Z[vmsk{U8[0+o&DIL+ipebcvNDj}hA?_Z-1uP7Z2uVMac;V6?l_FY.GPh]D{ayXxet-Gc-ky:c9ciIB;vZ8Va&xVnjq:%j.{e{[oHXyG4*M]Fs5,sT05aT}$^aK{]EKl0f7KbZqp%P#_U;rG@v!V:sl]%=L5nGEaEuljo+{yi]HMGwhuI$(*h,SgU)Kg|tevWzip5v)A89SpRfqNuA8c)T^i]o+-}HcyP]^O=RJ)k^?bB6}WZ4=sKU$5ZUa?b[U0EuWI?Q^Bydd795YoyYI8Z;|nmky$!ol9[L-hbw=6^sOY-bylH!EdcU%4aHyyIG2.$Dc6f#pp-=e4rr*+5G2[&#WyHw.CWOLkDWO9C6g]U;mYQfhlRhlVU5X*46usK(D}@r
+
